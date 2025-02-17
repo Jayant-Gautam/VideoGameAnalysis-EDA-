@@ -20,7 +20,7 @@ Total Records: [16719 X 16]
 
 🔍 Key Insights from the Analysis
 
-📌 1. Top 10 Publishers by Sales
+📌 **1. Top 10 Publishers by Sales**
 
 The leading publishers in the gaming industry were identified based on total global sales.
 
@@ -29,7 +29,7 @@ Some publishers dominate the market, releasing multiple high-grossing titles.
 📊 Visualization: Bar chart of total sales per publisher
 ![Top 10 Publishers by Sales](./Graphs/top_10_publisher.png)
 
-📌 2. Regional Sales by Genre
+📌 **2. Regional Sales by Genre**
 
 Different regions have unique gaming preferences.
 
@@ -38,7 +38,7 @@ Some genres sell well in North America but underperform in Japan.
 📊 Visualization: Stacked bar chart showing regional sales distribution
 ![Regional sales by publishers](./Graphs/regional_sales.png)
 
-📌 3. Video Game Sales Trend Over the Years
+📌 **3. Video Game Sales Trend Over the Years**
 
 Video game sales peaked in certain years due to console launches and hit titles.
 
@@ -47,7 +47,7 @@ Industry downturns and shifts in gaming preferences are evident in later years.
 📊 Visualization: Line chart of yearly sales trends
 ![Sales Trend Over the Years](./Graphs/trend2.png)
 
-📌 4. Heat Map of Sales by Genre and Region
+📌 **4. Heat Map of Sales by Genre and Region**
 
 Identifies strongest markets for different genres.
 
@@ -56,7 +56,7 @@ Reveals which regions drive the highest sales for each game type.
 📊 Visualization: Heatmap of sales distribution by genre and region
 ![Heat](./Graphs/HeatMap.png)
 
-📌 5. Sales Performance by Platform
+📌 **5. Sales Performance by Platform**
 
 Some gaming platforms dominate the industry in total sales.
 
@@ -65,7 +65,7 @@ Older platforms still retain market presence, while some fade out over time.
 📊 Visualization: Bar chart of total sales per platform
 
 
-📌 6. Top-Selling Video Games
+📌 **6. Top-Selling Video Games**
 
 A handful of games achieved record-breaking sales.
 
@@ -75,7 +75,7 @@ The presence of franchises (e.g., Pokémon, Mario, Call of Duty) is significant.
 ![Top Selling Games](./Graphs/top_selling_gaming_platforms.png)
 
 
-📌 7. Genre Popularity Over Time
+📌 **7. Genre Popularity Over Time**
 
 Shows evolution of gaming preferences over decades.
 
@@ -84,7 +84,7 @@ New genres emerge while some decline in popularity.
 📊 Visualization: Line chart of yearly sales per genre
 ![Genre Popularity Over Time](./Graphs/gameGenre.png)
 
-📌 8. Publisher Market Share
+📌 **8. Publisher Market Share**
 
 Compares the market share of top publishers over time.
 
@@ -99,23 +99,29 @@ The project extensively uses interactive Plotly charts to present insights, incl
 
 ⚙ Technology Stack
 
-✅ Python – Main programming language✅ Pandas – Data cleaning and manipulation✅ Plotly – Interactive visualizations✅ Jupyter Notebook – Development environment
+✅ Python – Main programming language
 
-📝 How to Run the Project
+✅ Pandas – Data cleaning and manipulation
 
-1️⃣ Install Dependencies
+✅ Plotly – Interactive visualizations
 
-pip install pandas numpy matplotlib seaborn plotly jupyter
+✅ Jupyter Notebook – Development environment
 
-2️⃣ Clone Repository & Load Data
+#### How to Run the Project
+
+    1️⃣ Install Dependencies
+
+pip install pandas plotly jupyter
+
+    2️⃣ Clone Repository & Load Data
 
 git clone [https://github.com/your-username/video-game-eda.git](https://github.com/Jayant-Gautam/VideoGameAnalysis-EDA-.git)
 
-cd video-game-eda
+    cd video-game-eda
 
-jupyter notebook
+    jupyter notebook
 
-3️⃣ Run Jupyter Notebook
+    3️⃣ Run Jupyter Notebook
 
 Open the EDA notebook and execute the cells to generate insights.
 
